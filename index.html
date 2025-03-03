@@ -165,7 +165,7 @@
     // Update button text when a file is selected
     document.querySelectorAll('input[name="file"]').forEach((radio) => {
         radio.addEventListener('change', function() {
-            document.getElementById("downloadBtn").textContent = "View " + this.value;
+            document.getElementById("downloadBtn").textContent = "Download " + this.value;
         });
     });
 
